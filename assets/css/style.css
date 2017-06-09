@@ -1,0 +1,686 @@
+@font-face {
+    font-family: gentleman;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/gentleman-Regular.otf');
+}
+@font-face {
+    font-family: gentleman-bold;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/gentleman-Bold.otf');
+}
+@font-face {
+    font-family: gentleman-black;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/gentleman-Black.otf');
+}
+@font-face {
+    font-family: gentleman-thin;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/gentleman-Thin.otf');
+}
+@font-face {
+    font-family: gentleman-light;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/gentleman-Light.otf');
+}
+body {
+   overflow-x: hidden;
+}
+h3 {
+    margin: 20px auto 20px auto;
+    font-family: gentleman;
+}
+h2 {
+    margin: 20px auto;
+    font-family: gentleman;
+}
+p {
+    font-family: gentleman-light;
+    color:919191;
+}
+
+.jumbotron{
+    background: url('http://jaketeme.siteprofissional.com/assets/images/background.jpg') black center no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    color: #fff;
+    margin-bottom: 0;
+    min-height: 316px;
+    height: auto;
+    padding: 140px 0;
+}
+
+.jumbotron h1{
+  margin-top:10%;
+  font-size: 40px;
+}
+.jumbotron span{
+  color: #ffa800;
+}
+
+.jumbotron h4{
+  font-size: 29px;
+}
+.jumbotron p{
+  display: block;
+  width: 60%;
+  margin: 20px auto;
+  font-size: 16px;
+  font-family: gentleman-light!important;
+}
+
+
+.btn-jumbotron{
+  background-color: transparent;;
+  border:2px solid #fff;
+  border-radius: 0;
+  color:#fff;
+  font-family: gentleman;
+  display: block;
+  margin: 20px auto!important;
+  width: 200px;
+}
+.btn-jumbotron:hover{
+  background-color: #ffa800;;
+  border:2px solid #fff;
+  border-radius: 0;
+  color:#fff;
+  font-family: gentleman;
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  transition: 1s;
+}
+.navbar{
+	border-radius: 0;
+    width: 100%;
+    top: 0;  
+    height: 120px;
+    z-index: 99;  
+}
+.navbar-brand h2{
+  color: #fff;
+  font-size: 20px;
+}
+.navbar-brand h4{
+  color: #fff;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.navbar-brand span{
+  color:  #ffa800;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-family: gentleman;
+    margin-top: 35px;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffa800;
+    transition: 1s;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    margin-top: 40px;
+}
+.navbar-nav {
+    margin: 7.5px -15px;
+    background: #222;
+}
+.sobre{
+  margin-top: 100px;
+}
+
+.sobre{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.conhecimentos{
+  margin: 60px auto;
+}
+.conhecimentos .icone img{
+  width: 80px;
+  margin: 30px auto;
+  display: block;
+}
+.projetos{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.port-image {
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0!important;
+    padding: 0!important;
+}
+.segmentos .row {
+    margin: 0!important;
+    padding: 0!important;
+}
+.segmentos .col-md-4 {
+    margin: 0!important;
+    padding: 0!important;
+}
+.each-item {
+    position: relative;
+    overflow: hidden;
+}
+.each-item:hover .cap2,
+.each-item:hover .cap1 {
+    left: 0px;
+}
+.cap1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: -100%;
+    padding: 10px;
+    text-align: center;
+    transition: all .5s;
+    color: #fff;
+}
+.segmentos {
+    margin: 40px auto 0 auto;
+}
+.filtro-bg {
+    background: #FFF;
+    padding: 10px;
+    height: 120px!important;
+    margin-top: 150px;
+}
+ .btn-segmento {
+    display: inline-flex;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    float: left;
+} 
+.filter-button.btn.btn-yellow{
+    margin-right: 35px!important;
+}
+.btn.btn-yellow {
+    background: #222222;
+    border-radius: 0 !important;
+    color: #999999;
+    outline:0!important;
+    outline-color: transparent;
+    width: 100%;
+    display: block;
+    margin-left: 22px!important;
+    font-family: gentleman;
+    padding: 8px 10px 8px 10px!important;
+}
+.btn.btn-yellow:focus,
+.btn.btn-yellow.active,
+.btn.btn-yellow:hover{
+    background: #ffa800;
+    border-radius: 0;
+    color: #fff;
+}
+.project-space{
+  width: 95%;
+  height: auto;
+  padding: 20px;
+  margin: 50px auto;
+  display: block;
+  /* border: 1px solid #000;
+  border-radius: 10px; */
+}
+.project-space p{
+  display: none;
+}
+.project-space p:hover{
+  display: none;
+}
+ .project-space:hover{
+  background:  rgba(33, 192, 175, 0.3);
+  width: 95%;
+  height: auto;
+} 
+
+.project-space .desktop img{
+  width: 90%;
+  display: inline;
+  float: left;
+  margin: 10px auto;
+}
+.project-space .mobile img{
+  width: 40%;
+  display: inline;
+  float: left;
+  margin: 10px auto;
+  z-index: 2;
+  position: absolute;
+  top: 165px;
+  right: 13px;
+}
+
+.btn{
+  display: block;
+  margin: 10px auto;
+  outline: none;
+}
+.btn a{
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-git{
+  background-color: #ffb347;
+}
+.btn-git:hover{
+  background-color: #ffa666;
+}
+
+.icone{
+  display: inline-block;
+}
+
+/*loaders*/
+.loader-html {
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(60% - 160px);
+    border:  0;
+    width: 250px;
+    height: 12px;
+    padding: 1px;
+    background-image: linear-gradient(135deg, #f14e10 0%, #fe6514 25%, #f14e10 25%, #fe6514 50%, #f14e10 50%, #fe6514 75%,  #f14e10 75%,  #fe6514 100%);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 16px 16px;
+    background-clip: content-box;
+    -webkit-animation: loading 1s linear ;
+    -moz-animation: loading 1s linear ;
+    -ms-animation: loading 1s linear ;
+    -o-animation: loading 1s linear ;
+    animation: loading 1s linear ;
+
+
+}
+
+.loader-html:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 12px;
+    background: rgb(254,101,20);
+    -webkit-animation: progress 4s ease-in-out ;
+    -moz-animation: progress 4s ease-in-out ;
+    -ms-animation: progress 4s ease-in-out ;
+    -o-animation: progress 4s ease-in-out ;
+    animation: progress 4s ease-in-out ;
+}
+
+.loader-css {
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(60% - 160px);
+    border:  0;
+    width: 250px;
+    height: 12px;
+    padding: 1px;
+    background-image: linear-gradient(135deg, #005fa9 0%, #009fd8 25%, #005fa9 25%, #009fd8 50%, #005fa9 50%, #009fd8 75%,  #005fa9 80%,  #009fd8 100%);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 16px 16px;
+    background-clip: content-box;
+    -webkit-animation: loading 1s linear ;
+    -moz-animation: loading 1s linear ;
+    -ms-animation: loading 1s linear ;
+    -o-animation: loading 1s linear ;
+    animation: loading 1s linear ;
+
+
+}
+
+.loader-css:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 12px;
+    background: rgb(0,95,169);
+    -webkit-animation: progress 4s ease-in-out ;
+    -moz-animation: progress 4s ease-in-out ;
+    -ms-animation: progress 4s ease-in-out ;
+    -o-animation: progress 4s ease-in-out ;
+    animation: progress 4s ease-in-out ;
+}
+
+.loader-wordpress {
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(60% - 160px);
+    border:  0;
+    width: 250px;
+    height: 12px;
+    padding: 1px;
+    background-image: linear-gradient(135deg, #454240 0%, #455458 25%, #454240 25%, #455458 50%, #454240 50%, #455458 75%,  #454240 75%,  #455458 100%);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 16px 16px;
+    background-clip: content-box;
+    -webkit-animation: loading 1s linear ;
+    -moz-animation: loading 1s linear ;
+    -ms-animation: loading 1s linear ;
+    -o-animation: loading 1s linear ;
+    animation: loading 1s linear ;
+
+
+}
+
+.loader-wordpress:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 12px;
+    background: rgb(69,66,64);
+    -webkit-animation: progress 4s ease-in-out ;
+    -moz-animation: progress 4s ease-in-out ;
+    -ms-animation: progress 4s ease-in-out ;
+    -o-animation: progress 4s ease-in-out ;
+    animation: progress 4s ease-in-out ;
+}
+
+
+.loader-indesign {
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(60% - 160px);
+    border:  0;
+    width: 250px;
+    height: 12px;
+    padding: 1px;
+    background-image: linear-gradient(135deg, #e7247a 0%, #422c33 25%, #e7247a 25%, #422c33 50%, #e7247a 50%, #422c33 75%,  #e7247a 75%,  #422c33 100%);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 16px 16px;
+    background-clip: content-box;
+    -webkit-animation: loading 1s linear ;
+    -moz-animation: loading 1s linear ;
+    -ms-animation: loading 1s linear ;
+    -o-animation: loading 1s linear ;
+    animation: loading 1s linear ;
+
+
+}
+
+.loader-indesign:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 12px;
+    background: rgb(232,36,122);
+    -webkit-animation: progress 4s ease-in-out ;
+    -moz-animation: progress 4s ease-in-out ;
+    -ms-animation: progress 4s ease-in-out ;
+    -o-animation: progress 4s ease-in-out ;
+    animation: progress 4s ease-in-out ;
+}
+
+.loader-photoshop {
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(60% - 160px);
+    border:  0;
+    width: 250px;
+    height: 12px;
+    padding: 1px;
+    background-image: linear-gradient(135deg, #36d2fa 0%, #2a273d 25%, #36d2fa 25%, #2a273d 50%, #36d2fa 50%, #2a273d 75%,  #36d2fa 75%,  #2a273d 100%);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 16px 16px;
+    background-clip: content-box;
+    -webkit-animation: loading 1s linear ;
+    -moz-animation: loading 1s linear ;
+    -ms-animation: loading 1s linear ;
+    -o-animation: loading 1s linear ;
+    animation: loading 1s linear ;
+
+
+}
+
+.loader-photoshop:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 12px;
+    background: rgb(54,210,250);
+    -webkit-animation: progress 4s ease-in-out ;
+    -moz-animation: progress 4s ease-in-out ;
+    -ms-animation: progress 4s ease-in-out ;
+    -o-animation: progress 4s ease-in-out ;
+    animation: progress 4s ease-in-out ;
+}
+
+.loader-illustrator {
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(60% - 160px);
+    border:  0;
+    width: 250px;
+    height: 12px;
+    padding: 1px;
+    background-image: linear-gradient(135deg, #fda004 0%, #5a4f44 25%, #fda004 25%, #5a4f44 50%, #fda004 50%, #5a4f44 75%,  #fda004 75%,  #5a4f44 100%);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 16px 16px;
+    background-clip: content-box;
+    -webkit-animation: loading 1s linear ;
+    -moz-animation: loading 1s linear ;
+    -ms-animation: loading 1s linear ;
+    -o-animation: loading 1s linear ;
+    animation: loading 1s linear ;
+
+
+}
+
+.loader-illustrator:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 12px;
+    background: rgb(254,191,86);
+    -webkit-animation: progress 4s ease-in-out ;
+    -moz-animation: progress 4s ease-in-out ;
+    -ms-animation: progress 4s ease-in-out ;
+    -o-animation: progress 4s ease-in-out ;
+    animation: progress 4s ease-in-out ;
+}
+@keyframes progress {
+    0% {
+        min-width: 100%;
+    }
+    30% {
+        min-width: 80%;
+    }
+    50% {
+        min-width: 65%;
+    }
+    70% {
+        min-width: 20%;
+    }
+    85% {
+        min-width: 0;
+    }
+    100% {
+        min-width: 0;
+    }
+}
+
+@keyframes loading{
+    from { 
+        background-position: 0 0;
+        }
+        to {
+            background-position: -16px 0;
+            
+        }
+    }
+
+#contato{
+  margin-top: 100px;
+
+}
+.contatos{
+   background: url('http://jaketeme.siteprofissional.com/assets/images/bg-contato.jpg') black center no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    color: #fff;
+    margin-bottom: 0;
+    min-height: 316px;
+    height: auto;
+    padding: 60px 0;
+}
+
+.footer {
+    background-color: #000;
+    padding: 60px 0 0 0 !important;
+}
+.contato h3 {
+    color: #fff;
+    margin-top: 115px!important ;
+    margin-left: 0 !important;
+    font-family: gentleman-bold!important
+}
+.logo-footer {
+    margin-bottom: 26px;
+}
+.footer p {
+    color: #999999;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer span {
+    color: #fff;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer h5 {
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.footer .canais {
+    margin-bottom: 60px!important;
+    margin-left:  80px;
+}
+.footer .canais img {
+    margin-right: 18px;
+}
+.copyright {
+    background: #222222;
+    z-index: 2;
+    height: auto;
+    position: relative;
+    bottom: 0;
+    padding: 20px 0 8px 0!important;
+}
+.copyright a {
+    color: #ffa800;
+}
+.copyright a:hover {
+    color: #e51e82;
+    transition: 1s;
+}
+
+/************************** FORMULARIO **************************/
+form{
+    margin-top: 50px;
+}
+.form-control {
+    background: rgba(0, 0, 0, .5);
+    border-radius: 0 ;
+    border: 0 solid transparent ;
+    padding: 25px ;
+    outline:0;
+    outline-style: none;
+    color: #fff;
+}
+.form-control:focus {
+    outline:0;
+    outline-style: none ;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .8);
+}
+form button {
+    background-color: #ffa800;
+    border-radius: 0!important;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px ;
+    outline:0;
+    outline-style: none;
+}
+form button:hover {
+    background-color: #565658;
+    color: #fff !important;
+    transition: all 1s;
+}
+
+
+.form-error{
+  border: 1px solid orange;
+  color: #fff;
+}
+.help-block{
+  display: none;
+  color: #fff
+}
+.valid-error{
+    display: block;
+    background: orange;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn.btn-form{
+    width: 100%;
+    border-radius: 0;
+    border:1px solid #fff;
+    background-color: #ffa800;
+    text-transform: uppercase;
+}
+.btn.btn-form:hover{
+    width: 100%;
+    border-radius: 0;
+    border:1px solid #000;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+
+.page_not_exist{
+    background: url('http://jaketeme.siteprofissional.com/assets/images/bg_404.jpg') black center no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    color: #fff;
+    margin-bottom: 0;
+    height: 100vh;
+    padding: 140px 0;
+}
+.page_not_exist>h3{
+    position: absolute;
+    bottom:30px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
